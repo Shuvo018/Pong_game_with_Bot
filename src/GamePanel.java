@@ -88,7 +88,7 @@ public class GamePanel extends JPanel implements Runnable{
 
 //        For auto paddle right side
         if(ball.x >= GAME_WIDTH/2){
-            paddle2.setYDirection(ball.y);
+            paddle2.setYDirection(ball.y-(paddle2.height/2));
         }
 
 
